@@ -344,7 +344,7 @@ void SetupRend()
     glEnable(GL_COLOR_MATERIAL);                   //Porneste urmarirea culorilor
     glColorMaterial(GL_FRONT, GL_AMBIENT_AND_DIFFUSE);
     glMaterialfv(GL_FRONT, GL_SPECULAR, SpecRef);
-    glMateriali(GL_FRONT, GL_SHININESS, Shine);
+    glMateriali(GL_FRONT, GL_SHININESS, Shine);//
 }
 
 void walk(int key, int x, int y)                                      //schimba pozitia folosing sagetile
